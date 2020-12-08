@@ -1,0 +1,34 @@
+.frame {
+  width: 100%;
+  height: 100%;
+}
+
+.frame--half-left {
+  display: flex;
+}
+.frame--half-left .frame--half-left__pic {
+  width: 264px;
+  height: 100%;
+}
+.frame--half-left .frame--half-left__bg {
+  width: 196px;
+  height: 100%;
+}
+
+.frame--half-right {
+  display: flex;
+}
+.frame--half-right .frame--half-right__pic {
+  width: 264px;
+  height: 100%;
+  text-align: right;
+}
+.frame--half-right .frame--half-right__bg {
+  width: 196px;
+  height: 100%;
+}
+
+.pic__full-height {
+  height: 100%;
+  width: auto;
+}
